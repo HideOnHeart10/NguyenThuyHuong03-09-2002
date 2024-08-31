@@ -12,7 +12,7 @@ function init() {
   graphElem.setAttribute('data-before', eventName);
   document.querySelector('#card .title-card').innerHTML = `💘${titleCard}💘`;
   document.querySelector('#card .content-card').innerHTML = `${contentCard}`;
-  // document.querySelector('#card .honey').setAttribute('src', `${giftImage}`);
+  document.querySelector('#card .honey').setAttribute('src', `${giftImage}`);
 
   var _giftLink, 
       _giftImg;
